@@ -185,4 +185,14 @@ button:hover {
     .menu-icon {
         display: block;
     }
+
+    #menuList {
+        overflow: hidden;
+        transition: .5s;
+    }
+
+    .row {
+        flex-direction: column-reverse;
+        margin: 50px 0;
+    }
 }
